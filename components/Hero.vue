@@ -22,7 +22,8 @@ export default {};
 
 <style scoped>
 .Hero {
-  height: 50vh;
+  min-height: 50vh;
+  overflow: hidden;
   position: relative;
   display: flex;
   padding: 5rem 0;
@@ -31,7 +32,7 @@ export default {};
 }
 .text-container {
   width: 50%;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 .header {
   font-weight: 900;
