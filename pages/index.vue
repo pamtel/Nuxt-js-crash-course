@@ -1,6 +1,4 @@
 <template>
-  <div>
-    <Nav />
     <div>
       <Hero />
       <div class="container">
@@ -16,7 +14,6 @@
         />
       </div>
     </div>
-  </div>
 </template>
 
 <script>
