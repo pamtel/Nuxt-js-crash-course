@@ -6,9 +6,9 @@
       alt=""
     />
     <h3 class="header">{{ card.title }}</h3>
-    <p class="snippet">
+    <a class="snippet">
       {{ card.snippet }}
-    </p>
+    </a>
   </NuxtLink>
 </template>
 
@@ -42,5 +42,9 @@ export default {
 }
 .snippet {
   color: grey;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
 }
 </style>
